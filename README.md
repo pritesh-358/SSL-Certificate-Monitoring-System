@@ -1,6 +1,19 @@
 # SSL Certificate Monitoring System
 
-A Production-Ready Python application that automatically monitors SSL certificate expiry dates for multiple websites, generates CSV and HTML reports, sends email notifications, and supports automated execution using Windows Task Scheduler.
+<p align="center">
+  <img src="images/dashboard.png" width="900" alt="Dashboard">
+</p>
+
+<p align="center">
+
+Python • SSL Monitoring • HTML Dashboard • Email Notification • CSV Report • Task Scheduler
+
+</p>
+
+---
+
+Production-ready Python application for monitoring SSL certificate expiry across multiple websites.
+
 
 ---
 
