@@ -309,11 +309,9 @@ websites.txt
 Example:
 
 ```text
-google.com
-github.com
-openai.com
-microsoft.com
-amazon.com
+motoshare.in
+cotocus.org
+PILOTTRAININGUS.COM
 ```
 
 ---
