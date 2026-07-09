@@ -1,0 +1,143 @@
+# ==========================================================
+# SSL Certificate Monitoring System Configuration
+# ==========================================================
+
+project:
+
+  name: "SSL Certificate Monitoring System"
+
+  version: "3.0"
+
+  author: "Pritesh Thamke"
+
+
+# ==========================================================
+# SSL Certificate Scan Configuration
+# ==========================================================
+
+scan:
+
+  warning_days: 30
+
+  critical_days: 7
+
+  timeout: 10
+
+  retry_count: 3
+
+
+# ==========================================================
+# Website List Configuration
+# ==========================================================
+
+websites:
+
+  input_file: "websites.txt"
+
+
+# ==========================================================
+# Reports Configuration
+# ==========================================================
+
+reports:
+
+  csv: "reports/ssl_report.csv"
+
+  html: "reports/ssl_dashboard.html"
+
+
+# ==========================================================
+# Email Configuration
+# ==========================================================
+
+# ==========================================================
+# Email Configuration
+# ==========================================================
+
+email:
+
+  enabled: true
+
+  sender_name: "SSL Certificate Monitoring"
+
+  subject_prefix: "SSL Certificate Monitoring Report"
+
+  to:
+
+    - raj.thamke@gmail.com
+
+  cc:
+
+    - pritesh.cotocus@gmail.com
+
+  bcc:
+
+    - pritesh.thamke@gmail.com
+
+# ==========================================================
+# Logging Configuration
+# ==========================================================
+
+logging:
+
+  enabled: true
+
+  level: "INFO"
+
+  file: "logs/ssl_monitor.log"
+
+  console: true
+
+
+# ==========================================================
+# Application Configuration
+# ==========================================================
+
+application:
+
+  timezone: "Asia/Kolkata"
+
+  date_format: "%d-%m-%Y"
+
+  datetime_format: "%d-%m-%Y %H:%M:%S"
+
+  author: "Pritesh Thamke"
+
+  company: "Personal Project"
+
+  environment: "Development"
+
+
+# ==========================================================
+# Dashboard Configuration
+# ==========================================================
+
+dashboard:
+
+  title: "SSL Certificate Monitoring Dashboard"
+
+  auto_refresh: false
+
+
+# ==========================================================
+# Notification Configuration
+# ==========================================================
+
+notification:
+
+  send_email: true
+
+  attach_csv: true
+
+  attach_html: false
+
+
+# ==========================================================
+# Performance Configuration
+# ==========================================================
+
+performance:
+
+  show_execution_time: true
+
+  show_summary: true
