@@ -1,17 +1,5 @@
 # SSL Certificate Monitoring System
 
-<p align="center">
-  <img src="images/dashboard.png" width="900" alt="Dashboard">
-</p>
-
-<p align="center">
-
-Python • SSL Monitoring • HTML Dashboard • Email Notification • CSV Report • Task Scheduler
-
-</p>
-
----
-
 Production-ready Python application for monitoring SSL certificate expiry across multiple websites.
 
 
