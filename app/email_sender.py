@@ -52,6 +52,11 @@ from config_reader import load_config
 
 load_dotenv()
 
+print("Current Working Directory:", os.getcwd())
+print("SMTP_SERVER:", os.getenv("SMTP_SERVER"))
+print("SMTP_PORT:", os.getenv("SMTP_PORT"))
+print("ENV file exists:", os.path.exists(".env"))
+
 config = load_config()
 
 
